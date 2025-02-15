@@ -2,6 +2,8 @@
 <p>Projeto ficticio da plataforma DevClub</p>
 <p>Conhecimentos usados: HTML e Css e JavaScrip</p>
 
+<p>Responsividade para Desktop, Tablet e mobile</p>
+
 <p>Projeto feito por mim, usando apenas o FIGMA como referência.</p>
 <p>Projeto com foco em exercitar conceitos inicias do JS</p>
  
