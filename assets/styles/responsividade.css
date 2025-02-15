@@ -1,0 +1,33 @@
+@media screen and (max-width:720px) {
+
+    .main__container{
+        padding: 0 1em;
+    }
+    .main__img{
+        
+        max-width: 55%;
+
+     }
+    
+}
+
+
+@media screen and (max-width:430px) {
+    .sorteio__titulo{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .sorteio__input{
+        padding: 1em 1.5em;
+        font-size: 1rem;
+        margin-bottom: 2em;
+    }
+
+    .sorteio__input::placeholder{
+    
+        font-size: 1rem;
+        
+        
+    }
+}
