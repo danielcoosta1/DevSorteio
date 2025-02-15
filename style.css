@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("./assets/styles/main.css");
 
 
@@ -23,6 +23,10 @@
     --cor-button-bg: #AEC346;
     --cor-button-bs: rgba(174, 195, 70, 0.35);
     --cor-button-txt:#FFFFFF;
+
+    /* RESULTADO */
+
+    --fonte-resultado: "Oswald", serif;
 }
 
 

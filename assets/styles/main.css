@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25vh;
+    margin-top: 22vh;
 }
 
 
@@ -40,6 +40,7 @@
     padding: 1em 1.5em;
     width: 50%;
     margin-bottom: 3em;
+    font-size: 1.5rem;
 
 }
 
@@ -63,4 +64,12 @@
     text-align: center;
     color: var(--cor-button-txt);
     font-weight: bold;
+}
+
+
+.sorteio__resultado{
+    font-family: var(--fonte-resultado);
+    margin-top: 2em;
+    font-size: 2rem;
+    
 }
