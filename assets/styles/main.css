@@ -1,0 +1,66 @@
+.main__container{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+
+.main__img{
+    max-width: 35rem;
+    height: 35vh;
+}
+
+
+.sorteio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sorteio__titulo{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+
+.sorteio__inputs{
+    display: flex;
+    gap: 1.5em;
+
+}
+
+.sorteio__input{
+    background: var(--cor-input-bg);
+    border: 1px solid var(--cor-input-border);
+    border-radius: 14px;
+    padding: 1em 1.5em;
+    width: 50%;
+    margin-bottom: 3em;
+
+}
+
+.sorteio__input::placeholder{
+    
+    font-size: 1.25rem;
+    
+    
+}
+
+
+.sorteio__botao{
+    
+    width: 50%;
+    margin: 0 auto;
+    background: var(--cor-button-bg);
+    box-shadow: 0px 18px 40px var(--cor-button-bs);
+    border-radius: 10px;
+    padding: 1em 2em;
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--cor-button-txt);
+    font-weight: bold;
+}

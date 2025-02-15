@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("./assets/styles/main.css");
+
+
+
+:root{
+
+    /* BODY */
+
+    --cor-body-bg: #000;
+
+    --fonte-texto: "Roboto", serif;
+    --cor-texto: #FFFFFF;
+
+    /* INPUTS */
+
+    --cor-input-bg: rgba(255, 255, 255, 0.25);
+    --cor-input-border: rgba(255, 255, 255, 0.2);
+
+    /* BUTTON */
+
+    --cor-button-bg: #AEC346;
+    --cor-button-bs: rgba(174, 195, 70, 0.35);
+    --cor-button-txt:#FFFFFF;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+body{
+    box-sizing: border-box;
+    background: var(--cor-body-bg);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+}
